@@ -25,7 +25,7 @@
   <li>TypeScript;</li>
   <li>ReactJS;</li>
   <li>Prettier;</li>
-  <li>gh-pages;</li>
+  <li>gh-pages.</li>
 </ul>
 
 <hr/>
