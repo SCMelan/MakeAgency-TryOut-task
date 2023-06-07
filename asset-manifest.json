@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/MakeAgency-TryOut-task%20/static/css/main.68bda70c.css",
+    "main.js": "/MakeAgency-TryOut-task%20/static/js/main.a27849c4.js",
+    "static/media/Burger_BG.jpg": "/MakeAgency-TryOut-task%20/static/media/Burger_BG.81244260c587e22587da.jpg",
+    "static/media/Graphik-Bold-Web.ttf": "/MakeAgency-TryOut-task%20/static/media/Graphik-Bold-Web.d09878e815dd51c6c685.ttf",
+    "static/media/Graphik-Black-Web.ttf": "/MakeAgency-TryOut-task%20/static/media/Graphik-Black-Web.870dafb08d9eca5a3c46.ttf",
+    "static/media/Graphik-Medium-Web.ttf": "/MakeAgency-TryOut-task%20/static/media/Graphik-Medium-Web.eb344a59ff075ce3dbfe.ttf",
+    "static/media/Graphik-RegularItalic-Web.ttf": "/MakeAgency-TryOut-task%20/static/media/Graphik-RegularItalic-Web.1419263d6ea7d6443ee9.ttf",
+    "static/media/Graphik-Regular-Web.ttf": "/MakeAgency-TryOut-task%20/static/media/Graphik-Regular-Web.01f8ed5f8957a5d1796f.ttf",
+    "static/media/Graphik-Bold-Web.eot": "/MakeAgency-TryOut-task%20/static/media/Graphik-Bold-Web.2136a349684d3555398b.eot",
+    "static/media/Graphik-Black-Web.eot": "/MakeAgency-TryOut-task%20/static/media/Graphik-Black-Web.c5491846c9450d28cdae.eot",
+    "static/media/Graphik-Medium-Web.eot": "/MakeAgency-TryOut-task%20/static/media/Graphik-Medium-Web.290511406be6b829197a.eot",
+    "static/media/Graphik-RegularItalic-Web.eot": "/MakeAgency-TryOut-task%20/static/media/Graphik-RegularItalic-Web.71a415efb2502db4fd76.eot",
+    "static/media/Graphik-Regular-Web.eot": "/MakeAgency-TryOut-task%20/static/media/Graphik-Regular-Web.43bc515230796f328970.eot",
+    "static/media/Graphik-Bold-Web.woff": "/MakeAgency-TryOut-task%20/static/media/Graphik-Bold-Web.05610025ad31c1e07ff0.woff",
+    "static/media/Graphik-Black-Web.woff": "/MakeAgency-TryOut-task%20/static/media/Graphik-Black-Web.0d42ac9eb03c524c273e.woff",
+    "static/media/Graphik-RegularItalic-Web.woff": "/MakeAgency-TryOut-task%20/static/media/Graphik-RegularItalic-Web.c9db5ea4afc4f97c7979.woff",
+    "static/media/Graphik-Medium-Web.woff": "/MakeAgency-TryOut-task%20/static/media/Graphik-Medium-Web.236ced415a98ac13768d.woff",
+    "static/media/Graphik-Regular-Web.woff": "/MakeAgency-TryOut-task%20/static/media/Graphik-Regular-Web.f60715ef64f49ac79019.woff",
+    "static/media/Graphik-Black-Web.woff2": "/MakeAgency-TryOut-task%20/static/media/Graphik-Black-Web.fb19883e573571cd3470.woff2",
+    "static/media/Graphik-Bold-Web.woff2": "/MakeAgency-TryOut-task%20/static/media/Graphik-Bold-Web.647bade0347e0c9cadc4.woff2",
+    "static/media/Graphik-Medium-Web.woff2": "/MakeAgency-TryOut-task%20/static/media/Graphik-Medium-Web.4217ae72abe8fb24968b.woff2",
+    "static/media/Graphik-RegularItalic-Web.woff2": "/MakeAgency-TryOut-task%20/static/media/Graphik-RegularItalic-Web.6e95765e45fd93c052e2.woff2",
+    "static/media/Graphik-Regular-Web.woff2": "/MakeAgency-TryOut-task%20/static/media/Graphik-Regular-Web.14b6085903d31b2fe601.woff2",
+    "index.html": "/MakeAgency-TryOut-task%20/index.html",
+    "static/media/Check.svg": "/MakeAgency-TryOut-task%20/static/media/Check.a1ebb1906aaa10da4e5a.svg",
+    "static/media/Path.svg": "/MakeAgency-TryOut-task%20/static/media/Path.7b962004fd7702516f6b605c0c67bf7a.svg",
+    "main.68bda70c.css.map": "/MakeAgency-TryOut-task%20/static/css/main.68bda70c.css.map",
+    "main.a27849c4.js.map": "/MakeAgency-TryOut-task%20/static/js/main.a27849c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bda70c.css",
+    "static/js/main.a27849c4.js"
+  ]
+}
