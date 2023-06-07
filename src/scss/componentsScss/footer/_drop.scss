@@ -1,0 +1,91 @@
+.dropdownMenu {
+    overflow: hidden;
+    max-width: 30 0px;
+    transition: 0.3s all;
+
+    .dropdownBtn {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        border: none;
+        border-bottom: 2px solid #aeadae;
+        background: none;
+        cursor: pointer;
+        max-width: 280px;
+        width: 100%;
+        margin-top: 48px;
+
+        &:hover {
+            border-bottom: 2px solid #3e29e3;
+        }
+    }
+
+    .dropdownBtnActive {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        border: none;
+        border-bottom: 2px solid #3e29e3;
+        background: none;
+        cursor: pointer;
+        max-width: 280px;
+        width: 100%;
+        margin-top: 48px;
+
+        .arrow {
+            transform: rotate(180deg);
+        }
+    }
+
+    .drop {
+        transition: max-height 0.1s;
+        max-height: 0;
+
+        &[data-is-open="true"] {
+            max-height: 3000px;
+        }
+
+        &[data-is-open="false"] {
+            transition: 0.3s;
+        }
+    }
+
+    .activeDrop {
+        max-height: 0;
+        visibility: visible;
+    }
+
+    .inactiveDrop {
+        max-height: fit-content;
+        visibility: hidden;
+    }
+
+    .backShadow {
+        height: fit-content;
+        max-width: 280px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+        background: #ffffff;
+    }
+
+    .dropdownLi {
+
+        &:hover {
+            background-color: #3e29e3;
+            color: white;
+        }
+    }
+
+    .dropdownA {
+        font-family: "Graphik";
+        cursor: pointer;
+        margin: 8px 24px;
+
+        &:hover {
+            color: white;
+        }
+
+        .activeLi {
+            color: #3d28e1;
+        }
+    }
+}

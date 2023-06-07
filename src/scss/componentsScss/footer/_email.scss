@@ -1,0 +1,37 @@
+@mixin styleInputEmail($property) {
+    border-bottom: 4px solid $property;
+    &:hover {
+        border-bottom: 4px solid $property;
+    }
+}
+
+.EMail {
+    width: 280px;
+    &::placeholder {
+        color: #1b1b1b;
+    }
+    .textField {
+        margin-top: 48px;
+    }
+    margin-top: 92px;
+    border: none;
+    border-bottom: 2px solid #aeadae;
+    &:hover {
+        border-bottom: 2px solid #3e29e3;
+    }
+    transition: all 0.1s;
+}
+
+.emailError {
+    color: #e80f3b;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.activeEmail {
+    @include styleInputEmail(#3e29e3)
+}
+
+.invalidEmail {
+    @include styleInputEmail(#e80f3b)
+}

@@ -1,0 +1,156 @@
+.headerBody {
+  display: flex;
+  justify-content: space-between;
+
+
+  .leftBlock {
+    display: flex;
+
+    .AgencyLogo {
+      max-height: 40px;
+      max-width: 40px;
+      width: 100%;
+      height: 100%;
+      margin: 32px 0 0 64px;
+      border-radius: 100%;
+      background: 100%;
+
+      @media (max-width:736px) {
+        margin: 32px 0 0 16px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    .surname {
+      margin: 32px 0 0 24px;
+      color: #1b1b1b;
+      height: 20px;
+      font-style: medium;
+
+      .nameAndPatronymic {
+        color: #7d7d7d;
+      }
+    }
+
+  }
+
+  .burger {
+    margin-top: 32px;
+    border: none;
+    background: none;
+    display: flex;
+    z-index: 1000;
+    cursor: pointer;
+
+    @media (max-width:1200px) {
+      margin-right: 81px;
+
+      @media (max-width:1200px) {
+        margin-right: 40;
+
+        @media (max-width:736px) {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .burgerBtn {
+      width: 32px;
+      height: 32px;
+      position: relative;
+
+      @media (max-width:736px) {
+        margin-right: -20px;
+      }
+    }
+
+    .burgerBtn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 32px;
+      background-color: #1B1B1B;
+      height: 2px;
+      margin-top: 22px;
+      transition: all 0.3s;
+
+    }
+
+    .burgerBtn::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 24px;
+      background-color: #1B1B1B;
+      height: 2px;
+      margin-left: 8px;
+      transition: all 0.3s;
+    }
+  }
+
+  .burgerActive {
+    margin-top: 32px;
+    border: none;
+    background: none;
+    display: flex;
+    z-index: 1000;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    @media (max-width:736px) {
+      margin-right: 50px;
+    }
+
+    .burgerBtn {
+      width: 32px;
+      height: 32px;
+      position: relative;
+    }
+
+    .burgerBtn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 25px;
+      background-color: white;
+      height: 2px;
+      transform: rotate(-45deg);
+      transition: all 0.3s;
+      margin-top: 20px;
+
+    }
+
+    .burgerBtn::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 25px;
+      background-color: white;
+      height: 2px;
+      transform: rotate(45deg);
+      transition: all 0.3s;
+      margin-top: 20px;
+
+    }
+  }
+}
+
+.menu {
+  transform: scaleX(0);
+  visibility: hidden;
+  transition: 0.3s;
+
+}
+
+.menu.active {
+  transform: scaleX(1);
+  transition: 0.3s;
+  visibility: visible;
+
+}

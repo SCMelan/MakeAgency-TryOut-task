@@ -1,0 +1,140 @@
+.burgerPosition {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 60px;
+    margin-top: -72px;
+
+    .burgerBody {
+        max-width: 1344px;
+        height: 756px;
+        background-image: url(../../img/Burger_BG.jpg);
+        position: relative;
+        z-index: 9999;
+
+        @media (max-width:1200px) {
+            margin-left: -60px;
+            margin-top: 0px;
+
+            @media (max-width:736px) {
+                max-width: 424px;
+                min-width: 296px;
+            }
+        }
+
+        .burgerContentBox {
+            position: absolute;
+            max-width: 760px;
+            max-height: 740px;
+            width: 100%;
+            height: 100%;
+            margin: 8px;
+            background-color: #FFFFFF;
+
+            @media (max-width:1200px) {
+                max-width: 424px;
+                max-height: 740px;
+                width: 100%;
+                height: 100%;
+
+                @media (max-width:736px) {
+                    max-width: 408px;
+                    max-height: 740px;
+                    width: fit-content;
+                    height: 100%;
+                    background-color: rgba($color: #FFFFFF, $alpha: .7);
+
+                    @media (max-width:375px) {
+                        max-width: 359px;
+                    }
+                }
+            }
+
+            .headerBurger {
+                margin-left: 56px;
+                margin-top: 24px;
+                display: flex;
+                align-items: center;
+
+                @media (max-width:736px) {
+                    margin-left: 16px;
+                }
+
+                .AgencyLogo {
+                    max-height: 40px;
+                    max-width: 40px;
+                    border-radius: 100%;
+                    background: 100%;
+                }
+
+                p {
+                    color: #7D7D7D;
+                    margin-left: 64px;
+                }
+            }
+
+            .mainBurger {
+                margin-top: 48px;
+                margin-left: 160px;
+
+                @media (max-width:1200px) {
+                    margin-left: 56px;
+
+                    @media (max-width:736px) {
+                        margin-left: 20px;
+                    }
+                }
+
+                .infoAboutMe {
+                    margin-top: 24px;
+                    margin-bottom: 32px;
+                    max-width: 75%;
+                }
+
+                .numberPhone {
+                    font-weight: 500;
+                }
+            }
+
+            .footerBurger {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                bottom: 0;
+                margin-bottom: 48px;
+                margin-left: 160px;
+
+                @media (max-width:1200px) {
+                    margin-left: 56px;
+
+                    @media (max-width:736px) {
+                        margin-left: 20px;
+                    }
+                }
+
+                .Link {
+                    background: none;
+                    border: none;
+                }
+
+                .textLink {
+                    margin-left: 24px;
+                    color: #3E29E3;
+                    font-family: 'Graphik';
+                    font-style: Medium;
+                    transition: 0.2s all;
+                    &:hover{
+                        scale: (1.2);
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+.strong {
+    font-weight: 900;
+}

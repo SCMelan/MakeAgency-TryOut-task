@@ -1,0 +1,141 @@
+.checkboxAndRadioButton {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+
+    .checkbox {
+        display: none;
+    }
+
+    .checkboxBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fakeSpan {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border: 2px solid #aeadae;
+        position: relative;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #3e29e3;
+            background-image: url(../../img/Check.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            transition: 0.3s;
+            opacity: 0;
+            border: 2px solid #3e29e3;
+            transform: translate(-2px, -2px);
+        }
+    }
+
+    .checkbox:checked+.fakeSpan::before {
+        opacity: 1;
+    }
+
+    .textCheckbox {
+        position: relative;
+        top: -6px;
+        margin-left: 16px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .label:hover {
+        .fakeSpan {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 2px solid #3e29e3;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .textCheckbox {
+            mix-blend-mode: normal;
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+    .radiobuttonBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .radio {
+        display: none;
+    }
+
+    .fakeRadioSpan {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border: 2px solid #aeadae;
+        border-radius: 50%;
+        position: relative;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #3e29e3;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 12px;
+            height: 12px;
+            opacity: 0;
+            transition: 0.3s;
+            border-radius: 50%;
+        }
+
+        &:checked {
+            border: 2px solid #3e29e3;
+            border-radius: 50%;
+        }
+    }
+
+    .radio:checked+.fakeRadioSpan::before {
+        opacity: 1;
+    }
+
+    .textRadio {
+        position: relative;
+        top: -6px;
+        margin-left: 16px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .radioLabel:hover {
+        .fakeRadioSpan {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 2px solid #3e29e3;
+            border-radius: 50%;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .textRadio {
+            mix-blend-mode: normal;
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+}

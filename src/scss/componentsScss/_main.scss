@@ -1,0 +1,64 @@
+.mainBody {
+    margin: 48px 0 0 64px;
+
+    @media (max-width:736px) {
+        margin: 48px 0 0 16px;
+    }
+
+    .H1 {
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .gridIntro {
+        font-weight: bold;
+        margin-top: 64px;
+        margin-bottom: 20px;
+    }
+
+    .gridContent {
+        margin-right: 64px;
+        max-width: 1312px;
+        min-width: 1072px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 32px;
+
+        @media(max-width:1200px) {
+            grid-template-columns: repeat(8, 1fr);
+            gap: 32px;
+            max-width: 928px;
+            min-width: 672px;
+
+            @media(max-width:736px) {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 24px;
+                max-width: 424px;
+                min-width: 296px;
+            }
+        }
+
+        .gridItem {
+            min-width: 60px;
+            max-width: 80px;
+            min-height: 120px;
+            max-height: 160px;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+
+            @media(max-width:1200px) {
+                min-width: 56px;
+                max-width: 88px;
+
+                @media(max-width:736px) {
+                    min-width: 56px;
+                    max-width: 88px;
+                }
+            }
+        }
+    }
+
+}

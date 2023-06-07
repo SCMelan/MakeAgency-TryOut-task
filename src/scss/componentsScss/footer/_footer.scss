@@ -1,0 +1,25 @@
+@import './email';
+@import './drop';
+@import './btn';
+@import './chAndRd';
+@import './accordion';
+
+.footerBody {
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+
+  @media (max-width:736px) {
+    margin-left: 16px;
+  }
+
+  .UI {
+    font-weight: bold;
+    margin-top: 64px;
+
+    @media (max-width:736px) {
+      margin-left: 16px;
+    }
+  }
+
+}
