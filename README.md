@@ -1,4 +1,4 @@
-<h3>Проект:MakeAgency-TryOut-task.</h3> 
+<h3>Проект: MakeAgency-TryOut-task.</h3> 
 
 
 <hr/>
